@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97712FAA251BA19400917EA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97712FA9251BA19400917EA4 /* AppDelegate.swift */; };
+		97712FAC251BA19400917EA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97712FAB251BA19400917EA4 /* SceneDelegate.swift */; };
+		97712FAE251BA19400917EA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97712FAD251BA19400917EA4 /* ViewController.swift */; };
+		97712FB1251BA19400917EA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97712FAF251BA19400917EA4 /* Main.storyboard */; };
+		97712FB3251BA19700917EA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97712FB2251BA19700917EA4 /* Assets.xcassets */; };
+		97712FB6251BA19700917EA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97712FB4251BA19700917EA4 /* LaunchScreen.storyboard */; };
+		97712FC1251BA19800917EA4 /* LifeLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97712FC0251BA19800917EA4 /* LifeLoggerTests.swift */; };
+		97712FCC251BA19800917EA4 /* LifeLoggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97712FCB251BA19800917EA4 /* LifeLoggerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97712FBD251BA19800917EA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97712F9E251BA19400917EA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97712FA5251BA19400917EA4;
+			remoteInfo = LifeLogger;
+		};
+		97712FC8251BA19800917EA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97712F9E251BA19400917EA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97712FA5251BA19400917EA4;
+			remoteInfo = LifeLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97712FA6251BA19400917EA4 /* LifeLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97712FA9251BA19400917EA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97712FAB251BA19400917EA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		97712FAD251BA19400917EA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97712FB0251BA19400917EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97712FB2251BA19700917EA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97712FB5251BA19700917EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97712FB7251BA19700917EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97712FBC251BA19800917EA4 /* LifeLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97712FC0251BA19800917EA4 /* LifeLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeLoggerTests.swift; sourceTree = "<group>"; };
+		97712FC2251BA19800917EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97712FC7251BA19800917EA4 /* LifeLoggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeLoggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97712FCB251BA19800917EA4 /* LifeLoggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeLoggerUITests.swift; sourceTree = "<group>"; };
+		97712FCD251BA19800917EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97712FA3251BA19400917EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97712FB9251BA19800917EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97712FC4251BA19800917EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97712F9D251BA19400917EA4 = {
+			isa = PBXGroup;
+			children = (
+				97712FA8251BA19400917EA4 /* LifeLogger */,
+				97712FBF251BA19800917EA4 /* LifeLoggerTests */,
+				97712FCA251BA19800917EA4 /* LifeLoggerUITests */,
+				97712FA7251BA19400917EA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97712FA7251BA19400917EA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97712FA6251BA19400917EA4 /* LifeLogger.app */,
+				97712FBC251BA19800917EA4 /* LifeLoggerTests.xctest */,
+				97712FC7251BA19800917EA4 /* LifeLoggerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97712FA8251BA19400917EA4 /* LifeLogger */ = {
+			isa = PBXGroup;
+			children = (
+				97712FA9251BA19400917EA4 /* AppDelegate.swift */,
+				97712FAB251BA19400917EA4 /* SceneDelegate.swift */,
+				97712FAD251BA19400917EA4 /* ViewController.swift */,
+				97712FAF251BA19400917EA4 /* Main.storyboard */,
+				97712FB2251BA19700917EA4 /* Assets.xcassets */,
+				97712FB4251BA19700917EA4 /* LaunchScreen.storyboard */,
+				97712FB7251BA19700917EA4 /* Info.plist */,
+			);
+			path = LifeLogger;
+			sourceTree = "<group>";
+		};
+		97712FBF251BA19800917EA4 /* LifeLoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				97712FC0251BA19800917EA4 /* LifeLoggerTests.swift */,
+				97712FC2251BA19800917EA4 /* Info.plist */,
+			);
+			path = LifeLoggerTests;
+			sourceTree = "<group>";
+		};
+		97712FCA251BA19800917EA4 /* LifeLoggerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97712FCB251BA19800917EA4 /* LifeLoggerUITests.swift */,
+				97712FCD251BA19800917EA4 /* Info.plist */,
+			);
+			path = LifeLoggerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97712FA5251BA19400917EA4 /* LifeLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97712FD0251BA19800917EA4 /* Build configuration list for PBXNativeTarget "LifeLogger" */;
+			buildPhases = (
+				97712FA2251BA19400917EA4 /* Sources */,
+				97712FA3251BA19400917EA4 /* Frameworks */,
+				97712FA4251BA19400917EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeLogger;
+			productName = LifeLogger;
+			productReference = 97712FA6251BA19400917EA4 /* LifeLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97712FBB251BA19800917EA4 /* LifeLoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97712FD3251BA19800917EA4 /* Build configuration list for PBXNativeTarget "LifeLoggerTests" */;
+			buildPhases = (
+				97712FB8251BA19800917EA4 /* Sources */,
+				97712FB9251BA19800917EA4 /* Frameworks */,
+				97712FBA251BA19800917EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97712FBE251BA19800917EA4 /* PBXTargetDependency */,
+			);
+			name = LifeLoggerTests;
+			productName = LifeLoggerTests;
+			productReference = 97712FBC251BA19800917EA4 /* LifeLoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97712FC6251BA19800917EA4 /* LifeLoggerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97712FD6251BA19800917EA4 /* Build configuration list for PBXNativeTarget "LifeLoggerUITests" */;
+			buildPhases = (
+				97712FC3251BA19800917EA4 /* Sources */,
+				97712FC4251BA19800917EA4 /* Frameworks */,
+				97712FC5251BA19800917EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97712FC9251BA19800917EA4 /* PBXTargetDependency */,
+			);
+			name = LifeLoggerUITests;
+			productName = LifeLoggerUITests;
+			productReference = 97712FC7251BA19800917EA4 /* LifeLoggerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97712F9E251BA19400917EA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					97712FA5251BA19400917EA4 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					97712FBB251BA19800917EA4 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 97712FA5251BA19400917EA4;
+					};
+					97712FC6251BA19800917EA4 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 97712FA5251BA19400917EA4;
+					};
+				};
+			};
+			buildConfigurationList = 97712FA1251BA19400917EA4 /* Build configuration list for PBXProject "LifeLogger" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97712F9D251BA19400917EA4;
+			productRefGroup = 97712FA7251BA19400917EA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97712FA5251BA19400917EA4 /* LifeLogger */,
+				97712FBB251BA19800917EA4 /* LifeLoggerTests */,
+				97712FC6251BA19800917EA4 /* LifeLoggerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97712FA4251BA19400917EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97712FB6251BA19700917EA4 /* LaunchScreen.storyboard in Resources */,
+				97712FB3251BA19700917EA4 /* Assets.xcassets in Resources */,
+				97712FB1251BA19400917EA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97712FBA251BA19800917EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97712FC5251BA19800917EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97712FA2251BA19400917EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97712FAE251BA19400917EA4 /* ViewController.swift in Sources */,
+				97712FAA251BA19400917EA4 /* AppDelegate.swift in Sources */,
+				97712FAC251BA19400917EA4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97712FB8251BA19800917EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97712FC1251BA19800917EA4 /* LifeLoggerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97712FC3251BA19800917EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97712FCC251BA19800917EA4 /* LifeLoggerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97712FBE251BA19800917EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97712FA5251BA19400917EA4 /* LifeLogger */;
+			targetProxy = 97712FBD251BA19800917EA4 /* PBXContainerItemProxy */;
+		};
+		97712FC9251BA19800917EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97712FA5251BA19400917EA4 /* LifeLogger */;
+			targetProxy = 97712FC8251BA19800917EA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97712FAF251BA19400917EA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97712FB0251BA19400917EA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97712FB4251BA19700917EA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97712FB5251BA19700917EA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97712FCE251BA19800917EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97712FCF251BA19800917EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97712FD1251BA19800917EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75NQPMUYP6;
+				INFOPLIST_FILE = LifeLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snockety.LifeLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97712FD2251BA19800917EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75NQPMUYP6;
+				INFOPLIST_FILE = LifeLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snockety.LifeLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		97712FD4251BA19800917EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75NQPMUYP6;
+				INFOPLIST_FILE = LifeLoggerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snockety.LifeLoggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeLogger.app/LifeLogger";
+			};
+			name = Debug;
+		};
+		97712FD5251BA19800917EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75NQPMUYP6;
+				INFOPLIST_FILE = LifeLoggerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snockety.LifeLoggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeLogger.app/LifeLogger";
+			};
+			name = Release;
+		};
+		97712FD7251BA19800917EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75NQPMUYP6;
+				INFOPLIST_FILE = LifeLoggerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snockety.LifeLoggerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LifeLogger;
+			};
+			name = Debug;
+		};
+		97712FD8251BA19800917EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75NQPMUYP6;
+				INFOPLIST_FILE = LifeLoggerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snockety.LifeLoggerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LifeLogger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97712FA1251BA19400917EA4 /* Build configuration list for PBXProject "LifeLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97712FCE251BA19800917EA4 /* Debug */,
+				97712FCF251BA19800917EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97712FD0251BA19800917EA4 /* Build configuration list for PBXNativeTarget "LifeLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97712FD1251BA19800917EA4 /* Debug */,
+				97712FD2251BA19800917EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97712FD3251BA19800917EA4 /* Build configuration list for PBXNativeTarget "LifeLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97712FD4251BA19800917EA4 /* Debug */,
+				97712FD5251BA19800917EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97712FD6251BA19800917EA4 /* Build configuration list for PBXNativeTarget "LifeLoggerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97712FD7251BA19800917EA4 /* Debug */,
+				97712FD8251BA19800917EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97712F9E251BA19400917EA4 /* Project object */;
+}
